@@ -96,7 +96,8 @@ function App() {
         </div>
         <div className='pergunta'>
           <h4>Pergunta 3:</h4><br />
-          <label>Como você pode evitar a re-renderização desnecessária de um componente funcional?</label><br />
+          <div className='quest'>
+          <label>Como você pode evitar a re-renderização desnecessária de um componente funcional?</label><br /></div>
           <input
              type="radio"
              name="question3"
@@ -122,7 +123,8 @@ function App() {
         <div className='pergunta'>
           <h4>Pergunta 4:</h4> <br />
           <div>
-          <label>O React é mantido pela Microsoft.</label><br />
+          <div className='quest'>
+          <label>O React é mantido pela Microsoft.</label><br /></div>
           <label>
             <input
               type="radio"
@@ -147,9 +149,9 @@ function App() {
         </div>
         <div>
         <div className='pergunta'>
-          <h4>Pergunta 5:</h4></div>
+          <h4>Pergunta 5:</h4>
           <div className='quest'>
-            <label>O React é um framework de:</label><br />
+            <label>O React é um framework de:</label><br /></div>
             <label>
               <input type="radio" name="question5" />
               Front-End
